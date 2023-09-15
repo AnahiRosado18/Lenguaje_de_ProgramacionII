@@ -1,6 +1,7 @@
 import javax.swing.JOptionPane;
 
 /**
+* Anahi Cristal Rosado Keb
 * Computadora.java
 *
 * @author H�ctor Manuel Quej Cosgaya
