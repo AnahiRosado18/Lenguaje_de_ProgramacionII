@@ -16,7 +16,7 @@ public class ControladorAutomovil {
 		System.out.println("El color de mi auto ahora es "+ auto.color);
 
 		Automovil.Estereo radio = new Automovil.Estereo();
-		radio.reproducirCancion("Guns n' Roses - Nightrain");
+		radio.reproducirCancion("Aerials - System Of A Down");
 
 		Automovil.Radiador radiador = auto.new Radiador();
 		radiador.enfriar();
