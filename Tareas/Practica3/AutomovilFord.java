@@ -1,6 +1,6 @@
 /**
 * Automovil.java
-*
+*Anahi Cristal Rosado Keb
 * @author H�ctor Quej Cosgaya
 * @author Jos� Aguilar Canepa
 *
