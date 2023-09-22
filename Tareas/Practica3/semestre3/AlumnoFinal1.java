@@ -5,7 +5,7 @@
 package semestre3;
 
 /**
- *
+ *Corrección, impresion de datos completos- Anahí Cristal Rosado Keb
  * @author lunar
  */
 public class AlumnoFinal1 {
