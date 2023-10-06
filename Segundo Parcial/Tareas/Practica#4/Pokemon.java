@@ -51,7 +51,7 @@ public class Pokemon {
         System.out.printf("%s recibe ATK %s\n", this.getNombre(), movimiento);
         double danioAleatorio=Math.random();//casting
         calculaDanio((int) (danioAleatorio*10 +1));
-       System.out.printf("%s tiene ahora %s puntos de vida \n",this.getNombre(), this.HP);
+        System.out.printf("%s tiene ahora %s puntos de vida \n",this.getNombre(), this.HP);
         
     }
     
