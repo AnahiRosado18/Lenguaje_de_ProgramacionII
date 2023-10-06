@@ -17,7 +17,7 @@ public class BatallaPokemon {
         Pokemon Blastoise =new Pokemon("Blastoise","Tipo Agua", 10);
         Pokemon Gardevoir= new Pokemon("Gardevoir", "Tipo Psiquíco-Hada", 10);
         Blastoise.atacar("Torriente", Gardevoir);
-        Gardevoir.atacar("Sincronizar", Blastoise);
+        Gardevoir.atacar("Sincronia", Blastoise);
     }
     
 }
