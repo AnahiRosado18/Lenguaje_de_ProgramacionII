@@ -12,7 +12,7 @@ public abstract class Pokemon {
     
     private String nombre;
     private Tipo tipo;
-    private int HP=250; //instanciar hp con un valor de 100 directamente
+    private int HP=250; //instanciar hp con un valor de 250 directamente
     private int nivel;
     private Movimiento movimientos [];
         
@@ -53,7 +53,7 @@ public abstract class Pokemon {
     
     //métodos
     
-    private void calculaDanio(int danio, double efectividad) {//investigar para que es el System.out.printf
+    private void calculaDanio(int danio, double efectividad) {
         double puntosRestados=danio*efectividad;
         this.HP -= puntosRestados;
         System.out.printf("%s recibe %.2f puntos de danio\n",this.getNombre(), puntosRestados);
@@ -61,8 +61,8 @@ public abstract class Pokemon {
     
     public void recibirAtaque (Movimiento movimiento, double efectividad){
         System.out.printf("%s recibe ATK %s\n", this.getNombre(), movimiento.getNombre());
-        //double danioAleatorio=Math.random();//star casting
-        calculaDanio(movimiento.getPuntosDeAtaque(), efectividad);// end casting
+        //double danioAleatorio=Math.random();
+        calculaDanio(movimiento.getPuntosDeAtaque(), efectividad);
         System.out.printf("%s tiene ahora %s puntos de vida \n",this.getNombre(), this.HP);
         
     }
