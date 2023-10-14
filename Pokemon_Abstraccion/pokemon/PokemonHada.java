@@ -28,9 +28,9 @@ public class PokemonHada extends Pokemon {
         if(pokemon.getTipo()== Tipo.LUCHA) efectividad = 2.0;
         if(pokemon.getTipo()== Tipo.DRAGON) efectividad = 2.0;
         if(pokemon.getTipo()== Tipo.SINIESTRO) efectividad = 2.0;
-        if(pokemon.getTipo()== Tipo.ACERO) efectividad = 0.0;
-        if(pokemon.getTipo()== Tipo.FUEGO) efectividad = 1.0;
-        if(pokemon.getTipo()== Tipo.VENENO) efectividad = 0.0;
+        if(pokemon.getTipo()== Tipo.ACERO) efectividad = 0.5;
+        if(pokemon.getTipo()== Tipo.FUEGO) efectividad = 0.5;
+        if(pokemon.getTipo()== Tipo.VENENO) efectividad = 0.5;
         return efectividad;
     }
 }
