@@ -14,7 +14,7 @@ public class CajeroAutomáticoMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         CajeroAutomatico cajero = new CajeroAutomatico();
+        CajeroAutomatico cajero = new CajeroAutomatico();
         cajero.iniciarSesion();
 
     }
