@@ -6,7 +6,7 @@ package Cajero_Archivos;
 
 /**
  *
- * @author lunar
+ * @author Anahi Cristal Rosado Keb - 64124
  */
 public class CajeroAutomáticoMain {
 
